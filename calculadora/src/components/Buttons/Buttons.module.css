@@ -1,0 +1,41 @@
+:root{
+    --grey: rgb(220 220 220);
+    --light-blue: rgb(81, 156, 221);
+    --white-btn: #f7eded;
+    --box-shadow-grey: 0 0 10px rgb(220 220 220);
+}
+
+button{
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--white-btn);
+    font-size: 2rem;
+    aspect-ratio: 1/1;
+}
+
+.gris{
+    background-color: var(--grey);
+}
+
+.gris:hover{
+    box-shadow: var(--box-shadow-grey);
+    transition: all ease .5s;
+}
+
+.simbolo{
+    background-color: var(--light-blue);
+}
+
+.simbolo:hover{
+    box-shadow: 0 0 10px var(--light-blue);
+    transition: all ease .5s;
+}
+
+.num{
+    background-color: #fff;
+}
+
+.num:hover{
+    box-shadow: 0 0 10px #b6b6b6;
+    transition: all ease .5s;
+}
