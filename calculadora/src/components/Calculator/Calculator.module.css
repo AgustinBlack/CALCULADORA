@@ -2,7 +2,6 @@
 
 :root{
     --white: #f1f2f3;
-    --grey: #c8c9cf;
     --overflow: hidden
 }
 
@@ -29,7 +28,7 @@ span{
 }
 
 .result{
-    color: var(--grey);
+    color: rgb(182 182 182);
     font-size: 3rem;
     height: 60px;
     overflow-y: var(--overflow);
